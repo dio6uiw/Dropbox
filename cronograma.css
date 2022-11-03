@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(76, 135, 218);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+}
+
+header p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+header button{
+    color: rgb(76, 135, 218);
+    font-weight: bold;
+    height: 35px;
+    width: 150px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.days{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    background-color:   rgb(160, 160, 160);
+    width: 90%;
+}
+
+textarea{
+    height: 90%;
+    width: 90%;
+    border: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.days h1{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 29px;
+}       
